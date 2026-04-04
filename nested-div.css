@@ -1,0 +1,235 @@
+p {
+	margin: 0px;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+}
+
+.cat-container {
+	display: block;
+	width: 420px;
+	height: 100px;
+}
+
+.horizontal-layout-1 {
+	vertical-align: top;
+	display: inline-block;
+	width: 80px;
+	height: 100px;
+}
+
+.horizontal-layout-2 {
+	display: inline-block;
+	width: 230px;
+	height: 100px;
+	vertical-align: top;
+}
+
+.horizontal-layout-3 {
+	display: inline-block;
+	width: 90px;
+	height: 100px;
+}
+
+.vertical-layout-1 {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.vertical-layout-2 {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(96, 96, 96);
+}
+
+.vertical-layout-3 {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: rgb(96, 96, 96);
+	margin-top: 3px
+}
+
+.cat-button {
+	margin-top: 35px;
+	margin-left: 10px;
+	background-color: rgb(65, 160, 255);
+	border-style: none;
+	border-radius: 3px;
+	padding: 7px 15px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.cat-button:hover {
+	opacity: 0.7;
+}
+
+.cat-button:active {
+	opacity: 0.3;
+}
+
+.cat-image {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	margin-top: 20px;
+	margin-left: 10px;
+	border-radius: 30px;
+}
+
+.yt-container {
+	display: block;
+	width: 415px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.yt-container-left {
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	margin-right: 7px;
+}
+
+.yt-container-right {
+	vertical-align: top;
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+}
+
+.yt-image {
+	width: 150px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.yt-title-container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 17px;
+	margin-top: 3px;
+}
+
+.yt-author-container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: rgb(96, 96, 96);
+	margin-top: 20px;
+}
+
+.yt-details-container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: rgb(96, 96, 96);
+	margin-top: 2px;
+}
+
+.fb-container {
+	display: inline-block;
+	height: 200px;
+	width: 150px;
+	font-weight: 100px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.fb-upper {
+	height: 120px;
+	width: 150px;
+}
+
+.fb-lower {
+	height: 75px;
+	width: 150px;
+	padding: 5px;
+}
+
+.fb-title-container {
+	height: 20px;
+	width: 150px;
+}
+
+.fb-friend-container {
+	height: 20px;
+	width: 150px;
+	vertical-align: top;
+}
+
+.fb-friend-container-left {
+	display: inline-block;
+	height: 20px;
+	width: 23px;
+	vertical-align: top;
+}
+
+.fb-friend-container-right {
+	display: inline-block;
+	height: 20px;
+	width: 85px;
+	vertical-align: top;
+}
+
+.fb-button-container {
+	height: 25px;
+	width: 150px;
+	margin-top: 5px;
+}
+
+.fb-image {
+	width: 150px;
+	height: 120px;
+	object-fit: cover;
+}
+
+.fb-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 1px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+.fb-friend-img {
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-left: 1px;
+}
+
+.fb-mutual-friend {
+	vertical-align: top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(96, 96, 96);
+	margin-top: 3px;
+}
+
+.fb-button {
+	background-color: rgb(37, 146, 255);
+	border-style: none;
+	border-radius: 2px;
+	color: white;
+	font-size: 9px;
+	height: 20px;
+	width: 70px;
+	margin-left: 2px;
+}
+
+.fb-button:hover {
+	opacity: 0.7;
+}
+
+.fb-button:active {
+	opacity: 0.3;
+}
