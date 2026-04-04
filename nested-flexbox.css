@@ -1,0 +1,139 @@
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 4px;
+}
+
+p {
+	margin: 0;
+}
+
+.container-1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.left-container {
+	background-color: pink;
+	width: 100px;
+}
+
+.right-container {
+	background-color: skyblue;
+	width: 200px;
+}
+
+.text-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text {
+	background-color: black;
+	color: white;
+}
+
+.container-2 {
+	display: flex;
+}
+
+.left-container2 {
+	background-color: pink;
+	width: 100px;
+}
+
+.right-container2 {
+	background-color: skyblue;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px
+}
+
+.row-2-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.row-2-text {
+	background-color: black;
+	color: white;
+}
+
+.gmail-main-container {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.gmail-title-container {
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.gmail-title {
+	margin-left: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(96, 96, 96);
+}
+
+.gmail-message-container {
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.gmail-img-container {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.gmail-content-container {
+	flex: 3;
+	flex-direction: column;
+	justify-content: flex-start;
+	display: flex;
+}
+
+.gmail-content-title-container {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gmail-img {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+	border-radius: 30px;
+	margin-top: -25px;
+}
+
+.gmail-content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 5px
+}
+
+.gmail-promo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	margin-bottom: 5px
+}
+
+.gmail-message,
+.gmail-time {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: rgb(96, 96, 96)
+}
+
+.gmail-time {
+	margin-right: 10px;
+	font-size: 10px
+}
