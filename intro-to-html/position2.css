@@ -1,0 +1,65 @@
+body {
+	margin-bottom: 3000px;
+	background-color: pink;
+}
+
+p {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 12%;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header-left {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.header-img {
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-left: 40px;
+}
+
+.header-name {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.header-right {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+	align-items: center;
+}
+
+.add-friend-button,
+.message-button {
+	height: 50%;
+	margin-right: 8px;
+	border-style: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-size: 10px;
+	border-radius: 4px;
+}
+
+.add-friend-button {
+	background-color: rgb(20, 149, 255);
+	color: white;
+}
